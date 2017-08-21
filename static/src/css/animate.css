@@ -1,0 +1,94 @@
+/*@-webkit-keyframes easeOutBounce{*/
+    /*0%, 80%, 100% { -webkit-transform: scale(0.0) }*/
+    /*40% { -webkit-transform: scale(1.0) }*/
+/*}*/
+
+/*@keyframes easeOutBounce {*/
+    /*0%, 80%, 100% {*/
+        /*transform: scale(0.0);*/
+        /*-webkit-transform: scale(0.0);*/
+    /*} 40% {*/
+          /*transform: scale(1.0);*/
+          /*-webkit-transform: scale(1.0);*/
+      /*}*/
+/*}*/
+@keyframes  qz {
+    0% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -moz-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        -o-transform:rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+
+    }
+}
+@keyframes  qn {
+    0% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -moz-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -moz-transform: rotateZ(-10deg);
+        -o-transform:rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+
+    }
+    100% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -moz-transform: rotateZ(0deg);
+        -o-transform:rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+@-webkit-keyframes large {
+    0%, 80%, 100%
+    {
+
+    -webkit-transform: scale(0.9);
+    }
+    40%
+    {
+    -webkit-transform: scale(1.0);
+    }
+}
+@keyframes large {
+    0%, 80%, 100% {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+
+    }
+    40% {
+          transform: scale(1.0);
+          -webkit-transform: scale(1.0);
+
+      }
+}
+
+@keyframes down{
+    0%
+    {
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(0.9);
+    }
+    90%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

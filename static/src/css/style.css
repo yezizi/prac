@@ -1,0 +1,205 @@
+body{
+    background: #222222;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color:#333333;
+}
+img{
+    border:0 none;
+}
+button ,a ,input, select{
+    border:0;
+    outline:none;
+}
+
+a:focus{
+    outline:none;
+}
+.radius{
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */
+    border-radius: 5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    outline:none;
+}
+ul  li{
+    list-style: none;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.section1,.section2{
+    /*position:absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*width:100%;*/
+}
+.logo{
+    margin-left:42px;
+    margin-top:39px;
+}
+.banner {
+    margin-top:63px;
+    width:640px;
+    height:433px;
+    background-image:url(../../images/timing1.png) ;
+}
+.banner p{
+    font-size: 50px;
+    color:#ffffff;
+    padding-top:16px;
+    margin-left:396px;
+}
+.text{
+    width:347px;
+    height:376px;
+    background: #f8cd48;
+    margin-left:254px;
+    margin-top:-80px;
+
+}
+.text p{
+    font-size: 22px;
+    vertical-align: middle;
+    padding:82px 0 0 45px;
+    line-height: 38px;
+    width:264px;
+}
+.footer {
+  line-height: 74px;
+    color:#ffffff;
+    width:562px;
+    margin:0 auto;
+    text-align: right;
+}
+.bottom img{
+    position:fixed;
+    top:92%;
+    left:50%;
+    margin-left:-18px;
+}
+.title{
+    margin:59px 0  35px 0;
+}
+.title *{
+   text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    color:#ffffff;
+    font-family: "Microsoft YaHei Light";
+}
+.title-english{
+    font-family: Calibri Light;
+    color:#cccccc;
+    font-size: 40px;
+    position:absolute;
+    left:-150%;
+}
+.title em{
+    width:82px;
+    margin:17px auto;
+}
+.line{
+    height:1px;
+    background: #ffffff;
+    display:block;
+}
+.banner-v{
+   height:427px;
+    width:100%;
+    background-image: url(../../images/shanding1.png);
+    background-color: #f8cd48;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.banner-text {
+   width:183px;
+    height:310px;
+    word-break: break-all;
+}
+.banner-text span{
+    width:30px;
+    font-size: 30px;
+    height:310px;
+    display:inline-block;
+    margin-left: 513px;
+    word-wrap: break-word;
+}
+.text-v{
+    color:white;
+    margin:48px 26px 0 26px;
+}
+.text-v h3{
+    font-size: 32px;
+    font-family: "Microsoft YaHei Light";
+}
+.text-v em{
+    width:40px;
+    text-align: left;
+    margin:40px 0;
+}
+.text-v  p{
+    line-height: 32px;
+}
+.banner-m{
+    padding:0 26px;
+}
+.list-text{
+    margin-top:38px;
+}
+.list-text .num{
+    width:64px;
+    height:64px;
+    background: #f8cd48;
+    display:inline-block;
+    font-size: 40px;
+    text-align: center;
+    vertical-align:middle;
+}
+.list-text .num-title{
+  font-size: 30px;
+    color:white;
+    margin-left:30px;
+}
+.list-text p{
+    color:white;
+    font-size: 22px;
+    margin-top: 11px;
+    line-height: 40px;
+}
+.banner-c{
+    margin:0 26px;
+    background-image: url(../../images/contact.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height:750px;
+    background-color: #f8cd48;
+}
+.banner-c ul{
+    padding-top: 254px;
+    width:442px;
+    margin:0 auto;
+}
+.banner-c input{
+    height:70px;
+    background: #ffffff;
+    width:442px;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color:#666666;
+}
+placeholder{
+    color:#999999;
+}
+.banner-c button{
+    width:442px;
+    height:70px;
+    font-size: 22px;
+
+}
+.banner-c p{
+    font-size: 20px;
+    line-height: 90px;
+}
